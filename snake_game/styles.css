@@ -1,0 +1,15 @@
+#game-board {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border: 2px solid #000;
+  background-color: #f0f0f0;
+}
+.snake {
+  background-color: green;
+  position: absolute;
+}
+.food {
+  background-color: red;
+  position: absolute;
+}

@@ -1,0 +1,16 @@
+#game-board {
+  position: relative;
+  overflow: hidden;
+  background-color: #70c5ce; /* Warna latar belakang */
+}
+
+.pipe {
+  position: absolute;
+  background-color: #228b22; /* Warna pipa */
+  width: 50px;
+}
+
+.bird {
+  background-color: yellow; /* Warna burung */
+  border-radius: 50%; /* Bentuk bulat */
+}

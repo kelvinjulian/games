@@ -1,0 +1,22 @@
+.card {
+  width: 100px;
+  height: 100px;
+  background-color: #4caf50; /* Warna latar belakang kartu */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.card.flipped {
+  background-color: #fff; /* Warna latar belakang saat kartu dibalik */
+  color: #000; /* Warna teks saat kartu dibalik */
+}
+
+.card.matched {
+  background-color: #ffd700; /* Warna latar belakang untuk kartu yang cocok */
+}

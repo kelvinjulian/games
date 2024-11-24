@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Snake</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Link ke file CSS -->
+</head>
+
+<body class="flex items-center justify-center h-screen bg-gray-200">
+    <div class="text-center">
+        <h1 class="text-2xl font-bold mb-4">Game Snake</h1>
+        <p id="instructions" class="mb-4 text-lg">Gunakan Arrow Key untuk mulai</p> <!-- Instruksi -->
+        <p id="game-over-message" class="mb-4 text-lg text-red-500 hidden">Anda Kalah!</p> <!-- Pesan Kalah -->
+        <div id="game-board"></div>
+        <button id="start-button" class="mt-4 px-4 py-2 bg-blue-500 text-white rounded">Mulai</button>
+    </div>
+
+    <script src="script.js"></script> <!-- Link ke file JavaScript -->
+</body>
+
+</html>
